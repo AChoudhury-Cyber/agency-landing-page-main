@@ -65,7 +65,11 @@
   margin-bottom: 50px;
 }
 
-.section1,
+.section1 {
+  display: flex;
+  height: 350px;
+}
+
 .section2 {
   display: flex;
   height: 350px;
@@ -103,7 +107,7 @@
 }
 
 .left h1 {
-  font-size: 40px;
+  font-size: 29px;
   margin-bottom: 16px;
 }
 
@@ -133,6 +137,20 @@
 
 .text-center {
   text-align: center;
+}
+
+
+.text-container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.text-center2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .bg-green {
@@ -182,8 +200,12 @@
   align-items: center;
 }
 
-.client .client-image {
+
+.client-image {
+  width: 100px;
+  border-radius: 50px;
   margin-bottom: 30px;
+  object-fit: contain;
 }
 
 .client p {
@@ -192,6 +214,7 @@
   color: #848391;
   line-height: 1.8;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
 }
 
 .client .details {
