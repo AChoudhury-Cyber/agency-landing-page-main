@@ -1,0 +1,36 @@
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 40px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.btn {
+  /* Styles for the list item with class "btn" */
+}
+
+.btn-link {
+  /* Styles for the link inside the list item with class "btn" */
+  /* Change to your desired background color */
+  color: #FFFFFF;
+  /* Change to your desired text color */
+  padding: 10px 20px;
+  /* Adjust padding as needed */
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.btn-link:hover {
+  /* Styles for the link on hover */
+  opacity: 0.9;
+  border: 1px solid;
+  padding: 10px 20px;
+  /* Change to your desired background color on hover */
+}
