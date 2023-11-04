@@ -1,54 +1,30 @@
-  .flex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    margin: 0 auto;
-    overflow: auto;
-    padding: 0 40px;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&family=Fraunces:opsz,wght@9..144,100;9..144,200;9..144,300;9..144,400;9..144,500;9..144,600;9..144,700;9..144,800;9..144,900&display=swap');
 
+:root {
+  --white: #ffffff;
+  --yellow: #FAD400;
+  --pinkishred: #FE7563;
+  --applegreen: #458C7E;
+  --darkgreen: #25564B;
+  --skyblue: #3DA1CB;
+  --darkblue: #19536B;
+  --black: #000000;
+  --bluishblack: #23303E;
+  --lightgrey: #A7ABAE;
+  --darkgrey: #5A636C;
+  --lightgreen: #90D4C5
+}
 
-  /* button */
-
-  .section .btn {
-    margin-left: 90px;
-    margin-top: 40px
-  }
-
-  .btn-link {
-
-    color: #FFFFFF;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 10px;
-  }
-
-  .btn-link:hover {
-    opacity: 0.9;
-    border: 1px solid;
-    padding: 10px 20px;
-  }
-
-  .writing-content btn {
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-  }
-
-
-  /* grid for section 1,2,3 */
-  .grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-
-  }
-
-  /* section for image */
-
-  .section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
+*,
+a {
+  max-width: 1600px;
+  color: var(--black);
+  cursor: pointer;
+  font-family: 'Barlow', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+}
