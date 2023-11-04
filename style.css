@@ -8,7 +8,6 @@ body {
   font-family: 'lato', sans-serif;
   color: #333;
   line-height: 1.6;
-  height: 1000vh;
 }
 
 ul {
@@ -36,6 +35,27 @@ h2 {
   height: 100vh;
 }
 
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  margin-top: 130px;
+}
+
+.hero h1 {
+  font-size: 50px;
+  font-weight: bold;
+  margin: 80px 0;
+}
+
+
+.hero p {
+  margin: 20px 0;
+}
+
 /* navbar */
 
 .navbar {
@@ -61,8 +81,214 @@ h2 {
   border-bottom: 2px #fff solid;
 }
 
-/* this pseduo class targets the a(links) and gives it a nice bottom */
-
 .navbar .flex {
   justify-content: space-between;
+}
+
+/* section1 and 2*/
+
+/* Left Content Styles for section 1 and 2 */
+.writing-content {
+  max-width: 100%;
+  padding: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.writing-content h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+  width: 400px;
+  font-weight: bold;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+.writing-content p {
+  font-size: 16px;
+  width: 400px;
+  margin-left: 100px;
+  margin-top: 40px;
+}
+
+/* Right Image Styles for section 1 and 2 */
+
+.image-container {
+  max-width: 100%;
+  height: auto;
+}
+
+.section-image {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.section-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* section3 */
+
+.bg-green {
+  background-image: url(images/desktop/image-graphic-design.jpg);
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+
+.bg-orange {
+  background-image: url(images/desktop/image-photography.jpg);
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+
+/* the writing part for section3 */
+
+.section3-writing {
+  margin-top: 350px;
+  margin-left: 50px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 70px;
+  margin-left: 180px;
+  margin-bottom: 50px;
+}
+
+.img-text {
+  font-size: 15px;
+  font-weight: bold;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+/* client-testimonials */
+
+.client-testimonial-title {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial-container {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 50px;
+
+}
+
+.testimonial-container h4 {
+  color: #A0A1A2;
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+/* client testimonials images */
+
+.clients {
+  display: flex;
+  justify-content: space-between;
+}
+
+.client {
+  display: flex;
+  flex-direction: column;
+  flex: 0.3;
+  align-items: center;
+}
+
+.client-image {
+  width: 100px;
+  border-radius: 50px;
+  margin-bottom: 30px;
+  object-fit: contain;
+}
+
+.client p {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #848391;
+  line-height: 1.8;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.details {
+  text-align: center;
+  font-size: 10px;
+}
+
+.client h4 {
+  color: #A0A1A2;
+}
+
+/* images section */
+
+.examples {
+  display: flex;
+}
+
+.examples div {
+  flex: 0.25;
+}
+
+.examples img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* footer */
+
+.footer {
+  background-color: #90D4C5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.logo {
+  color: #2D7465;
+}
+
+.footer-navigation {
+  color: #4F9485;
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+.footer-navigation span {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.footer-navigation span:hover {
+  color: #ffffff;
+}
+
+.footer .social-media {
+  margin-top: 30px;
+}
+
+.social-media img {
+  padding: 4px;
+}
+
+.social-media:hover {
+  cursor: pointer;
+  color: white;
 }
